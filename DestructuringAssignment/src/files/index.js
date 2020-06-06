@@ -9,8 +9,7 @@ const data = {
 };
 
 const printer = (data) => {
-  const name = data.name;
-  const age = data.age;
+  const { name, age } = data;
 
   console.log(`My name is ${name} and I'm ${age} years old.`);
 };
