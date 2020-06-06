@@ -42,7 +42,6 @@ Destructuring it's not only for objects, we can also do it to arrays.
 
 After downloading `src / files / index.js` or cloning the repo and being in the file path, run` node index`.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
 ## Docs
 
