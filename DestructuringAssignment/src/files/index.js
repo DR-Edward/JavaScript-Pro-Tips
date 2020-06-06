@@ -9,9 +9,9 @@ const data = {
 };
 
 const printer = (data) => {
-  const { name, age, family: { mother }, country = 'México' } = data;
+  const { name, age: yearsOld, family: { mother : mom }, country = 'México' } = data;
 
-  console.log(`My name is ${ name } and I'm ${ age } years old. My mother's name is ${ mother } and we live in ${ country }`);
+  console.log(`My name is ${ name } and I'm ${ yearsOld } years old. My mother's name is ${ mom } and we live in ${ country }`);
 };
 
 printer(data);
